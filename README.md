@@ -1,7 +1,7 @@
 # Get started!
 ------
 
-To get started with this code base follow the next steps:
+####### To get started with this code base follow the next steps:
 
 
 1. Pull the code from github or download the project as .zip.
