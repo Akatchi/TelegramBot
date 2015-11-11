@@ -17,4 +17,4 @@
 ------
 Credits for the Telegram library goes to the creator of the following libraries:
 - https://github.com/nixtabyte/JTeleBot-Server
-- https://github.com/nixtabyte/JTeleBot-Core
+- https://github.com/nixtabyte/JTeleBot-Core (The files io.github.nixtabyte.telegram.jtelebot.response.json.User.java and io.github.nixtabyte.telegram.jtelebot.response.json.GroupChat.java have been updated in this project. This is done because the library state on github contained some errors.)
