@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="jtelebot-server">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/JTeleBot-Server-master/JTeleBot-Server-master/classes/artifacts/jtelebot_server_jar/jtelebot-server.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
