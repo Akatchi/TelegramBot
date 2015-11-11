@@ -10,11 +10,11 @@ To get started with this code base follow the next steps:
 
 3. Change app.properties.example to app.properties (and fill in the values specified in the example file).
 
-..* If you haven't registered a bot yet go to the following link to do so (talk to the @BotFatherbot on Telegram) https://core.telegram.org/bots
+* If you haven't registered a bot yet go to the following link to do so (talk to the @BotFatherbot on Telegram) https://core.telegram.org/bots
 
 4. Add your desired commands to the commands package (Where ShrugCommand is right now).
 
-..* For full documentation on what you can do check out the following url: https://github.com/nixtabyte/JTeleBot-Core/blob/master/src/main/java/io/github/nixtabyte/telegram/jtelebot/request/factory/TelegramRequestFactory.java
+* For full documentation on what you can do check out the following url: https://github.com/nixtabyte/JTeleBot-Core/blob/master/src/main/java/io/github/nixtabyte/telegram/jtelebot/request/factory/TelegramRequestFactory.java
 
 5. Update the CommandFactory to work with your custom command.
 
