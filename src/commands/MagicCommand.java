@@ -10,9 +10,9 @@ import io.github.nixtabyte.telegram.jtelebot.server.impl.AbstractCommand;
 /**
  * Created by Vasco on 11/11/2015.
  */
-public class ShrugCommand extends AbstractCommand
+public class MagicCommand extends AbstractCommand
 {
-    public ShrugCommand(Message message, RequestHandler requestHandler)
+    public MagicCommand(Message message, RequestHandler requestHandler)
     {
         super(message, requestHandler);
     }
@@ -41,7 +41,7 @@ public class ShrugCommand extends AbstractCommand
              * @throws JsonParsingException
              */
             TelegramRequest request = TelegramRequestFactory.createSendMessageRequest(
-                    message.getChat().getId(), "¯\\_(ツ)_/¯", true, null, null
+                    message.getChat().getId(), "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)", true, null, null
             );
 
             requestHandler.sendRequest(request);

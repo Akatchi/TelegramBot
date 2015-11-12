@@ -1,5 +1,6 @@
 package factories;
 
+import commands.MagicCommand;
 import commands.ShrugCommand;
 import controllers.PropertiesController;
 import io.github.nixtabyte.telegram.jtelebot.client.RequestHandler;
@@ -26,6 +27,10 @@ public class CommandFactory implements io.github.nixtabyte.telegram.jtelebot.ser
         if( equalsCommand(message.getText(), "/shrug") )
         {
             return new ShrugCommand(message, requestHandler);
+        }
+        else if( equalsCommand(message.getText(), "/magic") )
+        {
+            return new MagicCommand(message, requestHandler);
         }
 
         return null;
